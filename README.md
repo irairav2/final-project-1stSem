@@ -1,27 +1,22 @@
-# FinalProject
+Choose one of the following hotels and make an Angular reservation web page for a Hotel. (each team will have a different one)
+You will be evaluated using the "Rubric Web Design" document from a previous assignment.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
+You MUST include:
 
-## Development server
+- pictures of the hotel and room (Debora)
+- a footer with the hotel info (address, schedule, and telephone) (Sarah)
+- details on its accommodations 
+- a date/time picker to choose the date range 
+- a selection component (radio buttons or combo box) to choose the bedroom type and the number of travelers 
+- a button that shows a successful reservation message with the price for the reservation and cleans the inputs (Iraira)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+You may add a bootstrap carousel for 3 extra points.
+  Extra resources:
+    For a bootstrap carousel:
+    https://getbootstrap.com/docs/5.1/getting-started/download/
+    https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_carousel&stacked=h
+    https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
+    To clear the inputs:
+    https://www.w3schools.com/howto/tryit.asp?filename=tryhow_html_clear_input2
+    For Date/Time Picker:
+    hhttps://awesomeopensource.com/project/duetds/date-picker
