@@ -6,13 +6,19 @@ import { UniHeaderComponent } from './uni-header/uni-header.component';
 import { RoomDivComponent } from './room-div/room-div.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BookComponent } from './book/book.component';
+import { RoomsComponent } from './rooms/rooms.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UniHeaderComponent,
     RoomDivComponent,
-    CarouselComponent
+    CarouselComponent,
+    BookComponent,
+    RoomsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
