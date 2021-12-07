@@ -1,7 +1,10 @@
+<link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+<div class="container-fluid">
 <ngb-carousel *ngIf="images" class = "carousel">
     <ng-template ngbSlide>
       <div>
-        <img [src]="images[0]" alt="Random first slide">
+        <img [src]="images[0]" alt="Matum Hotel Front View">
       </div>
       <div class="carousel-caption">
         <h3>First slide label</h3>
@@ -10,7 +13,7 @@
     </ng-template>
     <ng-template ngbSlide>
       <div class="picsum-img-wrapper">
-        <img [src]="images[1]" alt="Random second slide">
+        <img [src]="images[1]" alt="Second slide">
       </div>
       <div class="carousel-caption">
         <h3>Second slide label</h3>
@@ -19,11 +22,12 @@
     </ng-template>
     <ng-template ngbSlide>
       <div class="picsum-img-wrapper">
-        <img [src]="images[2]" alt="Random third slide">
+        <img [src]="images[2]" alt="Third slide">
       </div>
       <div class="carousel-caption">
         <h3>Third slide label</h3>
         <p>skjhbasjhf.</p>
       </div>
-  </ng-template>
-</ngb-carousel>
+    </ng-template>
+  </ngb-carousel>
+</div>
