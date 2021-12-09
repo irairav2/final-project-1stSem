@@ -12,14 +12,14 @@ export class CarouselComponent implements OnInit {
 
   images = [
     //"assets/images/1.jpg",
-    "assets/images/carousel1.jpg",
-    "assets/exam-sched.jpeg",
-    "assets/sched.png",
+    "assets/carousel-images/carousel1.jpg",
+    "assets/carousel-images/carousel2.jpg",
+    "assets/carousel-images/carousel3.jpg",
   ];
 
   constructor(config: NgbCarouselConfig) {
     // 
-    config.interval = 4000;
+    config.interval = 5500;
     config.keyboard = true;
     config.pauseOnHover = true;
     config.wrap = true;
