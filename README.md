@@ -3,12 +3,12 @@ You will be evaluated using the "Rubric Web Design" document from a previous ass
 
 You MUST include:
 
-- pictures of the hotel and room (Debora)
-- a footer with the hotel info (address, schedule, and telephone) (Sarah)
+- pictures of the hotel and room 
+- a footer with the hotel info (address, schedule, and telephone) 
 - details on its accommodations 
 - a date/time picker to choose the date range 
 - a selection component (radio buttons or combo box) to choose the bedroom type and the number of travelers 
-- a button that shows a successful reservation message with the price for the reservation and cleans the inputs (Iraira)
+- a button that shows a successful reservation message with the price for the reservation and cleans the inputs
 
 You may add a bootstrap carousel for 3 extra points.
   Extra resources:
