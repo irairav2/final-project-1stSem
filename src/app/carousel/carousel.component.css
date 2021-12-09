@@ -2,6 +2,9 @@
     width: 100%;
     height: 600px;
 }
+.carousel{
+    position:relative
+}
 ngb-carousel .wrapper {
     position: relative;
     height: 0;
@@ -14,4 +17,17 @@ ngb-carousel .wrapper > img {
     left: 0;
     bottom: 0;
     right: 0;
+}
+
+
+#slide1-caption{
+    position:absolute;
+    right:50%;
+    bottom:20px;
+    left:0%;
+    z-index:10;
+    padding-top:0px;
+    padding-bottom:420px;
+    color:#fff;
+    text-align:center;
 }
