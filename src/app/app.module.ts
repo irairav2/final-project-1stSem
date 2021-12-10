@@ -9,6 +9,8 @@ import { BookComponent } from './book/book.component';
 import { RoomsComponent } from './rooms/rooms.component';
 import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { DateTimePickerComponent } from './date-time-picker/date-time-picker.component';
+import { CUSTOM_ELEMENTS_SCHEMA } from "@angular/core";
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
     BookComponent,
     RoomsComponent,
     HomeComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    DateTimePickerComponent
   ],
   imports: [
     BrowserModule,
@@ -26,6 +29,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
     NgbModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }

@@ -1,7 +1,7 @@
 <link rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     
-<div class="container-fluid">
+<div> <!--class="container-fluid" for space @ the sides-->
 <ngb-carousel *ngIf="images" class = "carousel">
     <ng-template ngbSlide>
       <div>
@@ -27,7 +27,7 @@
     </ng-template>
     <ng-template ngbSlide>
       <div class="picsum-img-wrapper">
-        <a routerLink="/about-us">
+        <a routerLink="/book">
           <img [src]="images[2]" alt="Gym">
         </a>
       </div>
