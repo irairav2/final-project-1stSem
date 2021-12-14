@@ -22,7 +22,6 @@
     "@duetds/date-picker": "^1.4.0",
     "@ng-bootstrap/ng-bootstrap": "^10.0.0",
     "bootstrap": "^5.1.3",
-    "@duetds/date-picker": "^1.4.0",
     "jquery": "^3.6.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",

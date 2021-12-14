@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { DateTimePickerComponent } from './date-time-picker/date-time-picker.component';
 import { CUSTOM_ELEMENTS_SCHEMA } from "@angular/core";
+import { RoomInfoTableComponent } from './room-info-table/room-info-table.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CUSTOM_ELEMENTS_SCHEMA } from "@angular/core";
     RoomsComponent,
     HomeComponent,
     AboutUsComponent,
-    DateTimePickerComponent
+    DateTimePickerComponent,
+    RoomInfoTableComponent
   ],
   imports: [
     BrowserModule,
