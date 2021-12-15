@@ -1,0 +1,48 @@
+/* Formatting the text over the parallax img */
+.banner{
+    width: 100%;
+    height: 45%;
+    position:absolute;
+    color: white;
+    display : flex;
+    align-items : center;
+    justify-content: left;
+
+}
+.main-txt {
+    width: 45%;
+    text-align: center;
+}
+.main-txt h1{
+    font-size: 60px;
+    width: max-content; 
+    position: relative;
+    padding-left: 30px;
+    line-height: 50px;
+    text-align: left;
+}
+.main-txt p{
+    width: 660px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 30px;
+}  
+/*parallax effect*/
+.parallax {
+  /* The image used */
+  background-image:  url("../../assets/room-images/casino.jpeg");
+  /* Set a specific height */
+  min-height: 300px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blur {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(8px); 
+    height: 300px;
+    width: 100%;
+}

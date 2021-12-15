@@ -1,28 +1,100 @@
-table.roomtable {
-    border: 0px solid #1C6EA4;
-    background-color: #f7e3fe;
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important; 
+}
+/*parallax effect*/
+.parallax {
+  /* The image used */
+  background-image:  url("../../assets/room-images/bedroom3.jpg");
+  /* Set a specific height */
+  height: 300px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blur {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(8px); 
+    height: 300px;
     width: 100%;
-    height: 202px;
-    text-align: left;
-    border-collapse: collapse;
-  }
-  table.roomtable td, table.roomtable th {
-    border: 0px solid #AAAAAA;
-    padding: 3px 2px;
-  }
-  table.roomtable tbody td {
-    font-size: 20px;
 }
-table.roomtable tfoot td {
+/* Formatting the text over the parallax img */
+.banner{
+  width: 100%;
+  height: 45%;
+  position:absolute;
+  color: white;
+  display : flex;
+  align-items : center;
+  justify-content: left;
+
+}
+.main-txt {
+  width: 45%;
+  text-align: center;
+}
+.main-txt h1{
+  font-size: 60px;
+  width: max-content; 
+  position: relative;
+  padding-left: 30px;
+  line-height: 50px;
+  text-align: left;
+}
+.main-txt p{
+  width: 900px;
   font-size: 20px;
+  line-height: 40px;
+  text-align: left;
+  padding-left: 30px;
+}  
+.w3-black,.w3-hover-black:hover{
+  color:#000!important;
+  background-color:#fff!important;
+  border-radius: 0 10px 0 0;
 }
-table.roomtable tfoot .links {
-  text-align: right;
+
+.offering{
+  background-color: #FFFFFF;
 }
-table.roomtable tfoot .links a{
-  display: inline-block;
-  background: #1C6EA4;
-  color: #FFFFFF;
-  padding: 2px 8px;
-  border-radius: 5px;
+
+p{
+  text-align: center;
+  text-justify: inter-word;
+  font-size: 16px;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+h4{
+  text-align: center;
+}
+.img2 {
+  border-radius: 30px;
+  position: absolute;
+  top: 50px;
+  left: 120px;
+  width: 550px;
+  height: 400px;
+}
+
+#work{
+  position: relative;
+  top: -24px;
+}
+button{
+  margin: auto;
+  padding: 10px;
+	border: 2px solid #3339ab;
+  background-color: #3339ab;
+	border-radius: 3rem;
+  font-size: 18px;
+  color: #ffffff;
+}
+button:hover{
+  border: 2px solid #8ea8fd;
+  background-color: #8ea8fd;
 }
