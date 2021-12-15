@@ -11,10 +11,10 @@ table.roomtable {
     padding: 3px 2px;
   }
   table.roomtable tbody td {
-    font-size: 20px;
+    font-size: 18px;
 }
 table.roomtable tfoot td {
-  font-size: 20px;
+  font-size: 15px;
 }
 table.roomtable tfoot .links {
   text-align: right;
