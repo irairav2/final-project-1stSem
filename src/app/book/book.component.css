@@ -46,3 +46,24 @@
     height: 300px;
     width: 100%;
 }
+div.subtxt{
+    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 100px;
+}
+
+div h6 img{
+    padding-left: 10px;
+}
+img{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+}
+.spacing{
+    position: relative;
+    padding: 100px;
+    padding-top: 20px;
+    background-color: #c3d1ff;
+}
+
