@@ -80,7 +80,9 @@ h4{
   width: 550px;
   height: 400px;
 }
-
+img{
+  border-radius: 10px;
+}
 #work{
   position: relative;
   top: -24px;
