@@ -1,0 +1,10 @@
+footer { 
+    display: block;
+    text-align: center;
+    padding: 3px;
+    background-color: #3339ab;
+    color: white;
+}
+a {
+    color:  #8ea8fd;
+  }
