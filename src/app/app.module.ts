@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UniHeaderComponent } from './uni-header/uni-header.component';
 import { CUSTOM_ELEMENTS_SCHEMA } from "@angular/core";
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UniHeaderComponent,
+    FooterComponent,
 
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
