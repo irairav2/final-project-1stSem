@@ -1,0 +1,40 @@
+<link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
+<div> <!--class="container-fluid" for space @ the sides-->
+<ngb-carousel *ngIf="images" class = "carousel">
+    <ng-template ngbSlide>
+      <div>
+        <a routerLink="/about-us">
+          <img [src]="images[0]" alt="Casino View">
+        </a>
+      </div>
+      <div class="carousel-caption" id = "slide1-caption">
+        <h3>Welcome!</h3>
+        <p>At Matum Hotel & Casino you can live your dream vacation!</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <a routerLink="/rooms">
+          <img [src]="images[1]" alt="Room Picture">
+        </a>
+      </div>
+      <div class="carousel-caption">
+        <h3>Rooms</h3>
+        <p>Our rooms will provide you with a cozy experience near all the sightseeing spots in Santiago.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <a routerLink="/book">
+          <img [src]="images[2]" alt="Gym">
+        </a>
+      </div>
+      <div class="carousel-caption">
+        <h3>Amenities</h3>
+        <p>By staying with us, you'll have access to free breakfast, wi-fi, and a gym.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>

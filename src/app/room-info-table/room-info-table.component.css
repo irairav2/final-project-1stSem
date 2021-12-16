@@ -1,0 +1,45 @@
+p{
+  text-align: center;
+  text-justify: inter-word;
+  font-size: 20px;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+img {
+  border-radius: 30px;
+  position: absolute;
+  left: 50px;
+  width: 350px;
+  height: 250px;
+}
+.img2{
+  position: relative;
+  left: 200px;
+  top: 170px;
+}
+.roomtable {
+    border: 0px solid;
+    width: 100%;
+    height: 202px;
+    text-align: left;
+    border-collapse: collapse;
+  }
+#work{
+  position: relative;
+  top: -24px;
+}
+button{
+  margin: auto;
+  padding: 10px;
+	border: 2px solid #3339ab;
+  background-color: #3339ab;
+	border-radius: 3rem;
+  font-size: 18px;
+  color: #ffffff;
+}
+button:hover{
+  border: 2px solid #8ea8fd;
+  background-color: #8ea8fd;
+}

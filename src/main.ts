@@ -5,6 +5,8 @@ import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 import { defineCustomElements } from "@duetds/date-picker/dist/loader";
 
+import { defineCustomElements } from "@duetds/date-picker/dist/loader";
+defineCustomElements(window);
 if (environment.production) {
   enableProdMode();
 }
