@@ -12,6 +12,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { DateTimePickerComponent } from './date-time-picker/date-time-picker.component';
 import { CUSTOM_ELEMENTS_SCHEMA } from "@angular/core";
 import { RoomInfoTableComponent } from './room-info-table/room-info-table.component';
+import { MapComponent } from './map/map.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { RoomInfoTableComponent } from './room-info-table/room-info-table.compon
     HomeComponent,
     AboutUsComponent,
     DateTimePickerComponent,
-    RoomInfoTableComponent
+    RoomInfoTableComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
